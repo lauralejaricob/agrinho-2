@@ -1,0 +1,7 @@
+.banner {
+    background: var(--verde-oscuro);
+}
+
+.banner__imagem {
+    width: 100%;
+}

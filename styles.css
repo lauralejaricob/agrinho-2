@@ -1,0 +1,37 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root { 
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --cinza: #D0D3D4;
+    --botao-efeito-1: #FF5733;
+    --botao-azul: #008080;
+    --botao-efeito-2: #72900C;
+    --botao-vermelho: #900C3F;
+    --verde-claro: #DAF7A6;
+    --verde-oscuro: #37443a;
+    --amarelo-claro: #F9E79F;
+    --azul-oscuro: #00005C;
+    --roxo-oscuro: #800080;
+    --roxo-rosa: #581845;
+    --verde-azul: #117A65;
+    --vermelho: #CD5C5C;
+    --salmon: #E9967A;
+    --verde-dregade: radial-gradient(circle, rgba(211,240,29,1) 0%, rgba(98,201,23,1) 35%, rgba(0,101,24,1) 100%);
+    --cor-de-fundo:  linear-gradient(0deg, rgb(18, 181, 157) 0%, rgba(26,159,99,1) 24%, rgba(43,136,96,1) 36%, rgba(59,105,69,1) 61%, rgba(55,68,58,1) 88%, rgba(55,68,58,1) 100%);
+    --fonte-principal: "Poppins";
+    --fonte-secundario: "Josefin Sans";
+}
+
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
